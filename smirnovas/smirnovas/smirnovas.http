@@ -1,0 +1,11 @@
+@smirnovas_HostAddress = http://localhost:5235
+
+GET {{smirnovas_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{smirnovas_HostAddress}}/todos/1
+Accept: application/json
+
+###
